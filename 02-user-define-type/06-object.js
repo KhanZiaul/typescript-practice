@@ -15,4 +15,9 @@ user.push(user1);
 var user2;
 user2 = { userName: 'Megha', userId: 101 };
 user.push(user2);
-console.log(user);
+// console.log(user)
+// console.log(user[1])
+for (var key in user) {
+    // console.log(user[key]) // get all properties value
+    console.log(user[key]['userName']); // get sapecific value
+}
