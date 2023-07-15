@@ -14,6 +14,14 @@ enum numericalEnum{
     thirdPlayer
 }
 
-console.log(numericalEnum)
+// console.log(numericalEnum)
 
-console.log(numericalEnum.secondPlayer)
+// console.log(numericalEnum.secondPlayer)
+
+enum stringEnum{
+    firstPlayer = 'khan zia',
+    secondPlayer = 'Megha Moni' ,
+    thirdPlayer = 'Barai',
+}
+
+console.log(stringEnum)

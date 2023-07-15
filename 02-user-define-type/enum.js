@@ -11,5 +11,12 @@ var numericalEnum;
     numericalEnum[numericalEnum["secondPlayer"] = 2] = "secondPlayer";
     numericalEnum[numericalEnum["thirdPlayer"] = 3] = "thirdPlayer";
 })(numericalEnum || (numericalEnum = {}));
-console.log(numericalEnum);
-console.log(numericalEnum.secondPlayer);
+// console.log(numericalEnum)
+// console.log(numericalEnum.secondPlayer)
+var stringEnum;
+(function (stringEnum) {
+    stringEnum["firstPlayer"] = "khan zia";
+    stringEnum["secondPlayer"] = "Megha Moni";
+    stringEnum["thirdPlayer"] = "Barai";
+})(stringEnum || (stringEnum = {}));
+console.log(stringEnum);
