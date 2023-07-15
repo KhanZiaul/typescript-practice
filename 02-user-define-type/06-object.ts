@@ -20,5 +20,11 @@ user = [];
 let user1 : {userName : string , userId:number}
 user1 = {userName:'khan zia', userId:102}
 
+user.push(user1)
+
 let user2 : {userName : string , userId:number}
-user1 = {userName:'Megha', userId:101}
+user2 = {userName:'Megha', userId:101}
+
+user.push(user2)
+
+console.log(user)
