@@ -1,7 +1,7 @@
-let users : object[];
-users = [];
-
 type user = {userName : string , userId:number} 
+
+let users : user[];
+users = [];
 
 let user1 : user
 user1 = {userName:'khan zia', userId:102}
