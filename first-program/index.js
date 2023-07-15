@@ -1,0 +1,13 @@
+var firstNumber;
+var secondNumber;
+var userFirstName;
+var userLastName;
+var isEmployee;
+userFirstName = 'khan';
+userLastName = 'zia';
+var fullName = userFirstName + userLastName;
+firstNumber = 10;
+secondNumber = 20;
+var totalNumber = firstNumber + secondNumber;
+isEmployee = true;
+console.log(fullName, totalNumber, isEmployee);
