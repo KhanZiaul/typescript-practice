@@ -1,3 +1,5 @@
+// Union data type
+
 // let userId : string | number | boolean ;
 let userId : (string | number | boolean) ;
 

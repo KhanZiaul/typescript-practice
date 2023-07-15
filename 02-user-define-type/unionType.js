@@ -1,3 +1,4 @@
+// Union data type
 // let userId : string | number | boolean ;
 var userId;
 userId = '101';
