@@ -24,4 +24,12 @@ enum stringEnum{
     thirdPlayer = 'Barai',
 }
 
-console.log(stringEnum)
+// console.log(stringEnum)
+
+enum hetergenous{
+    firstPlayer=1,
+    secondPlayer='khan zia',
+    thirdPlayer='megha'
+}
+
+console.log(hetergenous)

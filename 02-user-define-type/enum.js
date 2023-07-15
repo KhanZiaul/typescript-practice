@@ -19,4 +19,11 @@ var stringEnum;
     stringEnum["secondPlayer"] = "Megha Moni";
     stringEnum["thirdPlayer"] = "Barai";
 })(stringEnum || (stringEnum = {}));
-console.log(stringEnum);
+// console.log(stringEnum)
+var hetergenous;
+(function (hetergenous) {
+    hetergenous[hetergenous["firstPlayer"] = 1] = "firstPlayer";
+    hetergenous["secondPlayer"] = "khan zia";
+    hetergenous["thirdPlayer"] = "megha";
+})(hetergenous || (hetergenous = {}));
+console.log(hetergenous);
